@@ -1,0 +1,108 @@
+/* body styling */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif, Arial, sans-serif;
+  background: url('../assets/petp.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #5c544c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* container for login/signup form */
+.ppContainer {
+  background: whitesmoke;
+  border: 2px solid #c9a477;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(185, 122, 63, 0.2);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  margin: auto 0;
+}
+
+/* title/header styling */
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #b87a3f;
+  gap: 10px;
+  vertical-align: middle;
+}
+
+/* form layout styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* input fields and button shared styles */
+input[type="text"],
+input[type="password"],
+button {
+  width: 90%;
+  padding: 14px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+/* input field styles */
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #c9a477;
+  transition: border 0.3s ease;
+}
+
+/* focus for inputs */
+input:focus {
+  border-color: #b87a3f;
+}
+
+/* submit button styling */
+button {
+  background-color: #b56422;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* hover effect for button */
+button:hover {
+  background-color: #b87a3f;
+}
+
+/* options below form */
+.ppOptions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* styling for links */
+.ppOptions a {
+  color: #b87a3f;
+  text-decoration: none;
+}
+
+/* link hover effect */
+.ppOptions a:hover {
+  text-decoration: underline;
+}
